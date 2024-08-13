@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: "Inter", sans-serif;
+   /* max-width: 1440px; */
+   background-color: rgba(17, 17, 17, 1);
+}
+/* nav bar start here  */
+.nav{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.nav-title{
+    color: rgba(230, 83, 60, 1);
+    font-weight: bolder;
+    font-size: 36px;
+}
+.nav-btn{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 46px;
+    padding: 8px 20px;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+.nav-link span{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.nav-link{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 4px 47px 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+}
+.burger{
+    display: none;
+}
+/* profile section start here  */
+.profile{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 32px;
+    position: relative;
+    gap: 160px;
+}
+.profile-title{
+    color: white;
+    font-weight: bolder;
+    font-size: 78px;
+}
+.profile-title .italic{
+    font-family: 'Miama', sans-serif;
+    font-weight:400;
+    font-size: 160px;
+    position: absolute;
+    margin-top: -50px;
+}
+.profile-description{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 50%;
+    font-weight: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgba(230, 83, 60, 1);
+    padding: 16px 45px;
+    border-radius: 42px;
+}
+.btn-profile{
+    background-color: rgba(17, 17, 17, 1);
+     border: 1px solid rgba(255, 255, 255, 1);
+}
+.button-btn{
+    display: flex;
+    gap: 20px;
+}
+.profile-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    align-items: start;
+}
+.profile-img{
+    position: relative;
+}
+.box{
+    position: absolute;
+    border: 1px solid white;
+    margin-top: -450px;
+    margin-left: 220px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 195px;
+    height: 98px;
+    padding: 17px;
+}
+.box .price{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    color: white;
+}
+.box .des{
+    margin-top: 0;
+}
+.box2{
+    position: absolute;
+    border: 1px solid white;
+    margin-top: -160px;
+    margin-left: -90px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 195px;
+    height: 98px;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.dot{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(230, 83, 60, 1);
+}
+.dot-content .price2{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
