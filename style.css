@@ -274,3 +274,9 @@ body{
     grid-row: 4/span 3;
     object-fit: cover;
 }
+/* bmi calculator section start here */
+.bmi-content{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}

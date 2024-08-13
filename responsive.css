@@ -50,6 +50,11 @@
     .training-imges img{
         object-fit: cover;
     }
+    /* bmi calculator section start here */
+    .bmi-content{
+        margin-top: 50px;
+        width: 100%;
+    }
 }
 /* mobile device small version  */
 @media screen and (max-width:576px) and (min-width:0px){
@@ -156,5 +161,10 @@
     }
     .training-imges img{
         object-fit: cover;
+    }
+     /* bmi calculator section start here */
+     .bmi-content{
+        margin-top: 30px;
+        width: 100%;
     }
 }
