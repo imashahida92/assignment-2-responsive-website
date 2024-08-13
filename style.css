@@ -153,3 +153,40 @@ body{
     font-weight: 600;
     margin-bottom: -10px;
 }
+/* habits section start here  */
+.habits-content{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.habit-content{
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+}
+.habit-title{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 30px;
+    margin-bottom: -6px;
+}
+.habit-img img{
+    border-radius: 50%;
+}
+.habit-practice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.habit-des{
+    text-align: center;
+}
+.habit-descript{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 1044px;
+    margin: 0 auto;
+    gap: 40px;
+}
