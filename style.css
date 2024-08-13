@@ -195,3 +195,30 @@ body{
     margin: 0 auto;
     gap: 40px;
 }
+/* run extra mile section start here  */
+.run-extra{
+    width: 1044px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 34, 34, 1);
+    border-radius: 18px;
+    padding: 32px;
+    gap: 160px;
+    margin-bottom: 100px;
+}
+.extra-mile-img img{
+    height: 312px;
+    width: 366px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+.run-btn{
+    margin-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.extra-mile-content{
+    padding-left: 50px;
+}
