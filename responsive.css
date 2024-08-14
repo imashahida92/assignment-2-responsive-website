@@ -1,3 +1,4 @@
+
 /* ipad media responsive  */
 @media screen and (max-width:992px) and (min-width:576px){
     /* navigation bar  */
@@ -49,6 +50,18 @@
     }
     .training-imges img{
         object-fit: cover;
+    }
+    /* motto section start from here  */
+    .services{
+        width: 100%;
+    }
+    .parent{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+        padding: 10px;
+    }
+    .child-3,.child-5,.child-6{
+        display: none;
     }
     /* bmi calculator section start here */
     .bmi-content{
@@ -217,6 +230,19 @@
     .calculator-input{
         width: 100%;
         padding: 10px;
+    }
+    /* motto section start from here  */
+    .services{
+        width: 100%;
+    }
+    .parent{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        padding: 5px;
+        margin-left: -40px;
+    }
+    .child-1,.child-2,.child-4{
+        display: none;
     }
     /* meet our team section start from here  */
     .team-images{
