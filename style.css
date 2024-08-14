@@ -405,6 +405,7 @@ table{
     background-image: url(images/trainer2.png);  
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 18px;
 }
 .team-member-3{
@@ -440,4 +441,44 @@ table{
    justify-content: end;
    margin-left: 19px;
    padding-bottom: 20px;
+}
+/* footer section started  */
+.footer-title{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 300;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.getstarted-title{
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+.footer-content{
+    display: flex;
+    /* gap: 102px; */
+    margin-bottom: 50px;
+}
+.footer-getstarted{
+    display: flex;
+    width: 50%;
+    align-items:start;
+    justify-content: center;
+    gap: 152px;
+}
+.footer-fitness{
+    width: 50%;
+}
+.footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 1440px;
+    margin: 0 auto;
+    padding: 66px 192px 36px 192px;
+}
+.footer-copyright{
+    text-align: center;
+    font-weight: 200px;
 }
