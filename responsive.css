@@ -67,7 +67,15 @@
         padding-top: 60px;
         margin-bottom: -150px;
     }
+    /* meet our team section start from here  */
+    .team-images{
+        width: 90%;
+        /* grid-template-columns: repeat(2,1fr); */
+    }
 }
+
+
+
 /* mobile device small version  */
 @media screen and (max-width:576px) and (min-width:0px){
     /* navigation bar  */
@@ -194,5 +202,12 @@
     .calculator-input{
         width: 100%;
         padding: 10px;
+    }
+    /* meet our team section start from here  */
+    .team-images{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        height: 1800px;
+        margin-top: -70px;
     }
 }
